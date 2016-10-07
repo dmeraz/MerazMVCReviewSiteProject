@@ -65,3 +65,7 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\MerazMVCReviewSitePro
 c:\users\wecancodeit\documents\visual studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\obj\Debug\MerazMVCReviewSiteProject.csprojResolveAssemblyReference.cache
 c:\users\wecancodeit\documents\visual studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\obj\Debug\MerazMVCReviewSiteProject.dll
 c:\users\wecancodeit\documents\visual studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\obj\Debug\MerazMVCReviewSiteProject.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.SqlServer.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.SqlServer.xml
