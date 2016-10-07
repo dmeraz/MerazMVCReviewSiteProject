@@ -10,10 +10,14 @@ namespace MerazMVCReviewSiteProject.Models
         //Properties
         [Key]
         //ID
-        public interface ID { get; set; }
+        public int ID { get; set; }
         //Title
+        public string Title { get; set; }
         //Content
+        public string Content { get; set; }
         //Publish Date
+        public DateTime PublishDate { get; set; }
         //Etc
+        public string TechType { get; set; }
     }
 }
