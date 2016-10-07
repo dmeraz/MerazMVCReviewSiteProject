@@ -9,6 +9,6 @@ namespace MerazMVCReviewSiteProject.Models
     {
         public int Id { get; set; }
         public string TechType { get; set; }
-        public virtual ICollection
+        public virtual ICollection<Review> Reviews { get; set; }
     }
 }
