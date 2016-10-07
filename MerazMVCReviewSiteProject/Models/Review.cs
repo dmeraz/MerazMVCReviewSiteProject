@@ -20,7 +20,7 @@ namespace MerazMVCReviewSiteProject.Models
         //Publish Date
         public DateTime PublishDate { get; set; }
         //Etc
-        public string TechType { get; set; }
+        public string ModelBrand { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }

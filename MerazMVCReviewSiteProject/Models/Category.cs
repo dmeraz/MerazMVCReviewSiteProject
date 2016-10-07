@@ -7,5 +7,8 @@ namespace MerazMVCReviewSiteProject.Models
 {
     public class Category
     {
+        public int Id { get; set; }
+        public string TechType { get; set; }
+        public virtual ICollection
     }
 }
