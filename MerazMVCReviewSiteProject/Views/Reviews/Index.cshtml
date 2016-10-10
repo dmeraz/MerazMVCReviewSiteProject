@@ -10,7 +10,31 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
-@* Convert table to row and columns *@
+@* Convert table to row and columns by deleting table components *@
+
+@* Place foreach inside row to prevent footer wrapping to columns *@
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+
+        <div class="col-sm-12 col-md-4">
+
+            <div class="thumbnail">
+
+                <div class="caption">
+                    <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+                    <p>@Html.DisplayFor(modelItem => item.ModelBrand)</p>
+                    <p>@Html.DisplayFor(modelItem => item.Content)</p>
+                    <p>@Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary" })</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@* Old table components for reference *@
 
 @*@Html.DisplayNameFor(model => model.Category.TechType)
 
@@ -22,40 +46,19 @@
 
     @Html.DisplayNameFor(model => model.ModelBrand)*@
 
+@*@Html.DisplayFor(modelItem => item.Category.TechType)
 
-@foreach (var item in Model)
-{
+    @Html.DisplayFor(modelItem => item.Title)
 
-    <div class="col-sm-12 col-md-4">
-        <div class="row">
-            <div class="thumbnail">
+    @Html.DisplayFor(modelItem => item.Content)
 
-                <div class="caption">
-                    <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-                    <p>@Html.DisplayFor(modelItem => item.ModelBrand)</p>
-                    <p>@Html.DisplayFor(modelItem => item.Content)</p>
-                    <p>@Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary" })</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    @Html.DisplayFor(modelItem => item.PublishDate)
 
-    @*@Html.DisplayFor(modelItem => item.Category.TechType)
+    @Html.DisplayFor(modelItem => item.ModelBrand)
 
-        @Html.DisplayFor(modelItem => item.Title)
-
-        @Html.DisplayFor(modelItem => item.Content)
-
-        @Html.DisplayFor(modelItem => item.PublishDate)
-
-        @Html.DisplayFor(modelItem => item.ModelBrand)
-
-        @Html.ActionLink("Edit", "Edit", new { id = item.ID })
-        @Html.ActionLink("Details", "Details", new { id = item.ID })
-        @Html.ActionLink("Delete", "Delete", new { id = item.ID })*@
-
-}
-
+    @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+    @Html.ActionLink("Details", "Details", new { id = item.ID })
+    @Html.ActionLink("Delete", "Delete", new { id = item.ID })*@
 
 
 @* Insert user added picture option

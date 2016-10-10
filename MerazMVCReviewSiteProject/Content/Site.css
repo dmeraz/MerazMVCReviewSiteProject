@@ -1,6 +1,10 @@
-﻿body {
+﻿/*Color palette: http://www.color-hex.com/color-palette/24381 */
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    /*Change text to old-timey style*/
+    font-family: 'Lusitana', serif;
     /*Make body off-white*/
     background-color: #f9f4ef;
 }
@@ -15,7 +19,9 @@
     background-color: #003366;
 }
 
+/*Style Jumbotron to stand out with special old-timey font*/
 .jumbotron{
+    font-family: 'IM Fell English SC', serif;
     background-color: #9dc766;
 }
 
@@ -31,4 +37,9 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*Add color to footer background*/
+footer{
+    background-color: #9dc766;
 }
