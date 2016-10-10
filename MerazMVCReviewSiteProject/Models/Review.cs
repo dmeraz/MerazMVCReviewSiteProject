@@ -19,8 +19,11 @@ namespace MerazMVCReviewSiteProject.Models
         public string Content { get; set; }
         //Publish Date
         public DateTime PublishDate { get; set; }
-        //Etc
+        //Add Model and Brand
         public string ModelBrand { get; set; }
+        //Add Image Path source: http://stackoverflow.com/questions/33012853/how-to-add-image-property-in-my-model
+        //Adding after build https://www.asp.net/mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-new-field-to-the-movie-model-and-table
+        //public string Image { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }

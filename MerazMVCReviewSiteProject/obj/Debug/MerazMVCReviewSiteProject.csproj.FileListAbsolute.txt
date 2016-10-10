@@ -69,3 +69,6 @@ C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSitePro
 C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.SqlServer.dll
 C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.xml
 C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\bin\EntityFramework.SqlServer.xml
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\obj\Debug\MerazMVCReviewSiteProject.Migrations.InitialCreate.resources
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\obj\Debug\MerazMVCReviewSiteProject.csproj.GenerateResource.Cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MerazMVCReviewSiteProject\MerazMVCReviewSiteProject\obj\Debug\MerazMVCReviewSiteProject.Migrations.AddRatingMig.resources
