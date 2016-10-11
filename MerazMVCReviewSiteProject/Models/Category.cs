@@ -5,6 +5,7 @@ using System.Web;
 
 namespace MerazMVCReviewSiteProject.Models
 {
+    //Assign Categories of technology type and id# to each review entry
     public class Category
     {
         public int Id { get; set; }
